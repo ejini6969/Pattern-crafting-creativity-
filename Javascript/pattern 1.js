@@ -11,3 +11,13 @@ describe("Tests", () => {
 	assert.strictEqual(pattern(5),"1\n22\n333\n4444\n55555");
   });
 });
+
+⬇️⬇️
+
+/* Example：
+1
+22
+333
+4444
+55555
+*/
