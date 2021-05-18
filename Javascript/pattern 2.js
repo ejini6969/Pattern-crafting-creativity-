@@ -11,3 +11,13 @@ describe("Tests", () => {
 	assert.strictEqual(pattern(5),"54321\n5432\n543\n54\n5");
   });
 });
+
+⬇️⬇️
+
+/* Example：
+54321
+5432
+543
+54
+5
+*/
