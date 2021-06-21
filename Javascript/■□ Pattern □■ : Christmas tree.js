@@ -5,6 +5,8 @@ function draw(n){
   return [top, middle, bottom].join`\n`
 }
 
+const { assert } = require("chai")
+
 describe("Tests", () => {
   it("test", () => {
 	assert.strictEqual(pattern(3)," 　　●\n"+
