@@ -6,10 +6,10 @@ const { assert } = require("chai")
 
 describe("Tests", () => {
   it("test", () => {
-    assert.strictEqual(christmasTree(0)), "");
+    assert.strictEqual(christmasTree(0), "");
     assert.strictEqual(christmasTree(1), "*");
-    assert.strictEqual(christmasTree(5)), "    *    \n   ***   \n  *****  \n ******* \n*********");
-    assert.strictEqual(christmasTree(8)), "       *       \n      ***      \n     *****     \n    *******    \n   *********   \n  ***********  \n ************* \n***************");
+    assert.strictEqual(christmasTree(5), "    *    \n   ***   \n  *****  \n ******* \n*********");
+    assert.strictEqual(christmasTree(8), "       *       \n      ***      \n     *****     \n    *******    \n   *********   \n  ***********  \n ************* \n***************");
   });
 });
 
