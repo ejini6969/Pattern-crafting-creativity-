@@ -8,7 +8,7 @@ const { assert } = require("chai")
 
 describe("Tests", () => {
   it("test", () => {
-	  assert.strictEqual(makeAWindow(3), "---------\n|...|...|\n|...|...|\n|...|...|\n|---+---|\n|...|...|\n|...|...|\n|...|...|\n---------");
+    assert.strictEqual(makeAWindow(3), "---------\n|...|...|\n|...|...|\n|...|...|\n|---+---|\n|...|...|\n|...|...|\n|...|...|\n---------");
   });
 });
 
