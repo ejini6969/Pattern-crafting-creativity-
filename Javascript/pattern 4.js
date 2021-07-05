@@ -6,9 +6,9 @@ const { assert } = require("chai")
 
 describe("Tests", () => {
   it("test", () => {
-	assert.strictEqual(pattern(1),"1");
-	assert.strictEqual(pattern(2),"12\n2");
-	assert.strictEqual(pattern(5),"12345\n2345\n345\n45\n5");
+    assert.strictEqual(pattern(1),"1");
+    assert.strictEqual(pattern(2),"12\n2");
+    assert.strictEqual(pattern(5),"12345\n2345\n345\n45\n5");
   });
 });
 
