@@ -9,7 +9,7 @@ const { assert } = require("chai")
 
 describe("Tests", () => {
   it("test", () => {
-	  assert.strictEqual(pattern(3),"  111  \n  222  \n1233321\n1233321\n1233321\n  222  \n  111  ");
+    assert.strictEqual(pattern(3),"  111  \n  222  \n1233321\n1233321\n1233321\n  222  \n  111  ");
     assert.strictEqual(pattern(5),"    11111    \n    22222    \n    33333    \n    44444    \n1234555554321\n1234555554321\n1234555554321\n1234555554321\n1234555554321\n    44444    \n    33333    \n    22222    \n    11111    ");
   });
 });
