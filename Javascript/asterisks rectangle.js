@@ -10,7 +10,7 @@ const { assert } = require("chai")
 
 describe("Tests", () => {
   it("test", () => {
-	assert.strictEqual(getRectangleString(3, 3), "***\r\n" +
+    assert.strictEqual(getRectangleString(3, 3), "***\r\n" +
                                                "* *\r\n" +
                                                "***\r\n)
   });
