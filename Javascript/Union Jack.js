@@ -10,7 +10,7 @@ const { assert } = require("chai")
 
 describe("Tests", () => {
   it("test", () => {
-	  assert.strictEqual(unionJack(7), 'X--X--X\n-X-X-X-\n--XXX--\nXXXXXXX\n--XXX--\n-X-X-X-\nX--X--X');
+    assert.strictEqual(unionJack(7), 'X--X--X\n-X-X-X-\n--XXX--\nXXXXXXX\n--XXX--\n-X-X-X-\nX--X--X');
     assert.strictEqual(unionJack(8), 'X--XX--X\n-X-XX-X-\n--XXXX--\nXXXXXXXX\nXXXXXXXX\n--XXXX--\n-X-XX-X-\nX--XX--X')
   });
 });
