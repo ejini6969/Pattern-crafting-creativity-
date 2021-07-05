@@ -7,7 +7,7 @@ const { assert } = require("chai")
 
 describe("Tests", () => {
   it("test", () => {
-	  assert.strictEqual(frame(['Small','frame']), '~~~~~~~~~\n~ Small ~\n~ frame ~\n~~~~~~~~~');
+    assert.strictEqual(frame(['Small','frame']), '~~~~~~~~~\n~ Small ~\n~ frame ~\n~~~~~~~~~');
     assert.strictEqual(frame(['Create','this','kata']), '++++++++++\n+ Create +\n+ this   +\n+ kata   +\n++++++++++');
     assert.strictEqual(frame(['This is a very long single frame']), '------------------------------------\n- This is a very long single frame -\n------------------------------------');
   });
