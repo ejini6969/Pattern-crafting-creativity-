@@ -6,8 +6,8 @@ const { assert } = require("chai")
 
 describe("Tests", () => {
   it("test", () => {
-   assert.strictEqual(board(5), "# # #\n # # \n# # #\n # # \n# # #\n");
-   assert.strictEqual(board(11), "# # # # # #\n # # # # # \n# # # # # #\n # # # # # \n# # # # # #\n # # # # # \n# # # # # #\n # # # # # \n# # # # # #\n # # # # # \n# # # # # #\n");
+    assert.strictEqual(board(5), "# # #\n # # \n# # #\n # # \n# # #\n");
+    assert.strictEqual(board(11), "# # # # # #\n # # # # # \n# # # # # #\n # # # # # \n# # # # # #\n # # # # # \n# # # # # #\n # # # # # \n# # # # # #\n # # # # # \n# # # # # #\n");
   });
 });
 
