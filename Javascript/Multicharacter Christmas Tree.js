@@ -9,12 +9,12 @@ const { assert } = require("chai")
 
 describe("Tests", () => {
   it("test", () => {
-	assert.strictEqual(customChristmasTree("*@o",3),
+    assert.strictEqual(customChristmasTree("*@o",3),
                                           `  *
                                            @ o
                                           * @ o
                                             |`));
-	assert.strictEqual(customChristmasTree("*@o",6),
+    assert.strictEqual(customChristmasTree("*@o",6),
                                         `     *
                                             @ o
                                            * @ o
@@ -23,7 +23,7 @@ describe("Tests", () => {
                                         * @ o * @ o
                                              |
                                              |`);
-	assert.strictEqual(customChristmasTree("1234",6),
+    assert.strictEqual(customChristmasTree("1234",6),
                                         `     1
                                             2 3
                                            4 1 2
