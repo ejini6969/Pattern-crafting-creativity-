@@ -11,7 +11,7 @@ const { assert } = require("chai")
 
 describe("Tests", () => {
   it("test", () => {
-	  assert.strictEqual(pattern(1),"1");
+    assert.strictEqual(pattern(1),"1");
     assert.strictEqual(pattern(2),"22\n21");
     assert.strictEqual(pattern(3),"333\n322\n321");
     assert.strictEqual(pattern(7),"7777777\n7666666\n7655555\n7654444\n7654333\n7654322\n7654321");
