@@ -4,7 +4,7 @@ function createTriangle(firstLine){
   while(a.length != 1){
     
     let lst2 = []
-    for(var i = 1; i < a.length; i++){
+    for(let i = 1; i < a.length; i++){
       if(a[i] == a[i - 1]){
         lst2.push("+")
       }
@@ -17,7 +17,9 @@ function createTriangle(firstLine){
   }  
  return lst.map((x, i) => `${" ".repeat(i)}${x}${" ".repeat(i)}`).join`\n`
  
- const { assert } = require("chai")
+const chai = require("chai");
+const assert = chai.assert;
+chai.config.truncateThreshold=0;
 
 describe("Tests", () => {
   it("test", () => {
