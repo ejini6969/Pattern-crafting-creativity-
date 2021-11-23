@@ -25,7 +25,7 @@ describe("Tests", () => {
 
 ⬇️⬇️
 
-/* Example(6, 6)：
+/* Example(cols = 6, rows = 6)：
  # # #
 # # # 
  # # #
