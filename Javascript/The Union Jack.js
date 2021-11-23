@@ -17,7 +17,7 @@ describe("Tests", () => {
 
 ⬇️⬇️
 
-/* Example(9)：
+/* Example(x = 9)：
 "X---X---X
 -X--X--X-
 --X-X-X--
@@ -28,7 +28,7 @@ XXXXXXXXX
 -X--X--X-
 X---X---X"
 
-Example(10):
+Example(x = 10):
 'X---XX---X
 -X--XX--X-
 --X-XX-X--
