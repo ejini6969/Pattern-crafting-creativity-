@@ -14,7 +14,7 @@ def fixed():
 ⬇️⬇️
 
 """
-Example：
+Example (n = 5)：
 1
 22
 333
