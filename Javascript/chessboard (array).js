@@ -16,7 +16,7 @@ describe("Tests", () => {
 
 ⬇️⬇️
 
-/* Example(3, 7)：
+/* Example (rows = 3, columns = 7)：
 [
     ["O","X","O","X","O","X","O"],
     ["X","O","X","O","X","O","X"],
