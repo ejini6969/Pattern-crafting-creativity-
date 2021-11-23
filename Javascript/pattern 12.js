@@ -36,5 +36,4 @@ describe("Tests", () => {
     3             3  
    2               2 
   1                 1
-pattern(15):
 */
