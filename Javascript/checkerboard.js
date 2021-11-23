@@ -14,7 +14,7 @@ describe("Tests", () => {
 
 ⬇️⬇️
 
-/* Example(8)：
+/* Example (size = 8)：
 [r][b][r][b][r][b][r][b]
 [b][r][b][r][b][r][b][r]
 [r][b][r][b][r][b][r][b]
