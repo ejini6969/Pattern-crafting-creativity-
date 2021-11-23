@@ -57,7 +57,7 @@ describe("Tests", () => {
 
 ⬇️⬇️
 
-/* Example(4)：
+/* Example (height = 4)：
    o
    o
    o
