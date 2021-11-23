@@ -15,7 +15,7 @@ describe("Tests", () => {
 
 ⬇️⬇️
 
-/* Example:
+/* Example (n = 5):
     *    
    ***   
   *****  
