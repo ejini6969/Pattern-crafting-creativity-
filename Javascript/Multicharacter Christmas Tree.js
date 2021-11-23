@@ -37,7 +37,7 @@ describe("Tests", () => {
 
 ⬇️⬇️
 
-/* Example:
+/* Example (chars = "*@o", n = 6):
      *
     @ o
    * @ o
