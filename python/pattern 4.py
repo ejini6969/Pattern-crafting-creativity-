@@ -13,7 +13,7 @@ def basic():
         
 ⬇️⬇️
 
-"""Example:
+"""Example (n = 5):
 12345
 2345
 345
