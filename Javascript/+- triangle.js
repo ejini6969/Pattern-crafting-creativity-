@@ -41,7 +41,7 @@ describe("Tests", () => {
 
 ⬇️⬇️
 
-/* Example("+ + - + - + +")：
+/* Example (firstLine = "+ + - + - + +")：
 + + - + - + +
  + - - - - + 
   - + + + -  
