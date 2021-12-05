@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/5722cc50785220ac8b00129b
+
 function babel(height) {
   return Array.from({length: height}, (_, i) => `${" ".repeat(height - i - 1)}${"o".repeat(2 * i + 1)}\n`.repeat(3)).join``.replace(/\n$/, "")
 }
