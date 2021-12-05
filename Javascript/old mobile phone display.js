@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/584e8bba044a15d3ed00016c
+
 function mobileDisplay(n,p){
   n = Math.max(20, n)
   p = Math.max(30, p)
