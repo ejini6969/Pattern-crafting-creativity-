@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/59098c39d8d24d12b6000020
+
 function dot(n,m){
   let border = '+---'.repeat(n) + '+'
   let centre = '| o '.repeat(n) + "|\n"
