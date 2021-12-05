@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/557592fcdfc2220bed000042
+
 function pattern(n){
  let a = Array.from({length:n},(_, i) => i + 1)
  return Array.from({length: n}, (_, i) => a.slice(i).concat(a.slice(0, i)).join('')).join('\n')
