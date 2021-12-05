@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/52755006cc238fcae70000ed
+
 function christmasTree(height) {
   return Array.from({length : height}, (_, i) => ' '.repeat(height - i - 1) + '*'.repeat(i * 2 + 1) + ' '.repeat(height - i - 1)).join("\n")
 }
