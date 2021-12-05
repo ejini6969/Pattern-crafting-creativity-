@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/5b817c2a0ce070ace8002be0
+
 function displayBoard(board, width){
   return ` ${Array.from({length: board.length / width}, (_, i) => board.slice(i * width, i * width + width).join(' | ')).join(` \n${"-".repeat(width * 4 - 1)}\n `)} `
 }
