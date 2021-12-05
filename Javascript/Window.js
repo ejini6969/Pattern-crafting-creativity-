@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/59c03f175fb13337df00002e
+
 function makeAWindow(num) {
  let side = `|${'.'.repeat(num)}|${'.'.repeat(num)}|\n`.repeat(num)
  let centre = `|${'-'.repeat(num)}+${'-'.repeat(num)}|\n`
