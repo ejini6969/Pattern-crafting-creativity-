@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/56c30eaef85696bf35000ccf
+
 function christmasTree(height){
   if(height < 3) return ""
   const max = 5 + 2 * (~~(height / 3) - 1)
