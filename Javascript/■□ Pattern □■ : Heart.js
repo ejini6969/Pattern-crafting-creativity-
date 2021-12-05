@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/56e8d06029035a0c7c001d85
+
 function draw(n){
   const top = Array.from({length: ~~(n / 6)},  (_, i) => `${"█".repeat(n)}`).join`\n`
   const body = Array.from({length: n / 2}, (_, i) => `${"　".repeat(i)}◥${"█".repeat(n - 2 - 2 * i)}◤${"　".repeat(i)}`).join`\n`
