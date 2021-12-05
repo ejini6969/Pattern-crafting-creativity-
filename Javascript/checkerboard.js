@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/53dc08fa8a0c93229400023b
+
 function checkerboard (size) {
   return size <= 0 ? '' : Array.from({length : size}, (_, i) => Array.from({length : size}, (_, j) => (i + j) % 2 ? '[b]' : '[r]').join``).join('\n') + '\n'
 };
