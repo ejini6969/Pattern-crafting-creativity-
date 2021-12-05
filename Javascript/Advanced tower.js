@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/57675f3dedc6f728ee000256
+
 function towerBuilder(nFloors, nBlockSz) {
   var maximum = nBlockSz[0] + nBlockSz[0] * 2 * (nFloors - 1)
   return [].concat(...Array.from({length: nFloors}, (_, i) => (' '.repeat((maximum - (i * nBlockSz[0] * 2 + nBlockSz[0])) / 2) + '*'.repeat(i * nBlockSz[0] * 2 + nBlockSz[0]) + ' '.repeat((maximum - (i * nBlockSz[0] * 2 + nBlockSz[0])) / 2) + '\n').repeat(nBlockSz[1]).split("\n"))).filter(x => x != '')
