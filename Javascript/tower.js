@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/576757b1df89ecf5bd00073b
+
 function towerBuilder(nFloors) {
   return Array.from({length: nFloors}, (_, i) => ' '.repeat(nFloors - i - 1) + '*'.repeat(i * 2 + 1) +  ' '.repeat(nFloors - i - 1))
 }
