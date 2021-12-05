@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/564f3d49a06556d27c000077
+
 function pattern(n){
    return Array.from({length:n}, (_, i) => ' '.repeat(i + 1) + String((i + 1) % 10).repeat(n - i).split('').join(' ')).join('\n')
 }
