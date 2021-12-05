@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/59f9b7ab8ba914d68200011e
+
 function generateBoard(cols, rows) {
   return Array.from({length: rows}, (_, i) => Array.from({length: cols}, (_, j) => (i + j) % 2? '#': ' ').join``).join('\n') + '\n'
 }
