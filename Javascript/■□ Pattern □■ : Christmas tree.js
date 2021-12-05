@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/56e8f0d5b131af66ec00018e
+
 function draw(n){
   let top = `${n % 2 == 1 ? " " : ""}${"　".repeat((n + 2) / 2 | 0)}●`
   let middle = Array.from({length: n}, (_, i) => `${(n - i - 1) % 2 == 1 ? " " : ""}${"　".repeat((n - i - 1) / 2 | 0)}.◢${"█".repeat(i + 1)}◣.`).join`\n`
