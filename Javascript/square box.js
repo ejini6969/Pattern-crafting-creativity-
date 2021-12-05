@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/58644e8ddf95f81a38001d8d
+
 function box(n){
  return ['-'.repeat(n)].concat(Array.from({length: n - 2}, (_, i) => '-' + ' '.repeat(n - 2) + '-')).concat(['-'.repeat(n)])
 }
