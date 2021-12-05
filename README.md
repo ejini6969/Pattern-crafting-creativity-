@@ -22,7 +22,7 @@ All links to corresponding tasks or katas as shown below : (NO CHEATING !!!) OwO
 1. [The Union Jack](https://www.codewars.com/kata/5620281f0eeee479cd000020)
 1. [Tower of babel](https://www.codewars.com/kata/5722cc50785220ac8b00129b)
 1. [Upturn Numeral Triangle](https://www.codewars.com/kata/564f3d49a06556d27c000077)
-1. [W]()
+1. [W](https://www.codewars.com/kata/5d7d05d070a6f60015c436d1)
 1. [Window](https://www.codewars.com/kata/59c03f175fb13337df00002e)
 1. [asterisks rectangle]()
 1. [checkerboard](https://www.codewars.com/kata/53dc08fa8a0c93229400023b)
