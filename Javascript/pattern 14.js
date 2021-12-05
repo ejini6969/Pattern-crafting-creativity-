@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/559379505c859be5a9000034
+
 function pattern(n,x = 1){
   if(n < 1) return ""
   x = Math.max(1, x)
