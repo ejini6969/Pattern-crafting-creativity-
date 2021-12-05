@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/592e3b99166edbd005000065
+
 function createTriangle(firstLine){
   let a = firstLine.replace(/ /g, "")
   let lst = [firstLine]
@@ -16,6 +18,7 @@ function createTriangle(firstLine){
     a = lst2
   }  
  return lst.map((x, i) => `${" ".repeat(i)}${x}${" ".repeat(i)}`).join`\n`
+}
  
 const chai = require("chai");
 const assert = chai.assert;
