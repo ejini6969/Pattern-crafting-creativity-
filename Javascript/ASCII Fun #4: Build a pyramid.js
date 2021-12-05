@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/594a5d8f704e4d5561000019
+
 function buildPyramid(str,n){
   let num = str.split(/[^a-z\d\-]/i)[0].length + 1
   return Array.from({length: n}, (_, i) => " ".repeat((n - 1) * num - num * i) + str.match(/(.)\1*/g).map(x => x.repeat(i + 1)).join``).join`\n`
