@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/5589ad588ee1db3f5e00005a
+
 function pattern(n){
   if (n < 1) return ''
  var side = Array.from({length: n - 1}, (_, i) => ' '.repeat(n - 1) + String((i + 1) % 10).repeat(n) + ' '.repeat(n - 1))
