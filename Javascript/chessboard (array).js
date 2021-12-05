@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/56242b89689c35449b000059
+
 function chessBoard(rows, columns) {
   return Array.from({length: rows}, (_, i) => Array.from({length:columns}, (_, j) => (i + j) % 2 == 1 ? "X" : "O"))
 }
