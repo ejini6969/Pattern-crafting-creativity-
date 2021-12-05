@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/563cb92e0996a4ac0b000042
+
 function pattern(n){
   let side = Array.from({length: n - 1}, (_, i) => `${' '.repeat(n - 1)}${(i + 1) % 10}`)
   let center = Array.from({length: n - 1}, (_, i) => (i + 1) % 10)
