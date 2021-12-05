@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/57819b700a8eb2d6b00002ab
+
 function hollowTriangle(n){
   let num = n - 2
   let first = [`${"_".repeat(n - 1)}#${"_".repeat(n - 1)}`]
