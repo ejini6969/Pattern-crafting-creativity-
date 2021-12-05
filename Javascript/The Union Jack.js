@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/5620281f0eeee479cd000020
+
 function unionJack(x) {
   if(typeof x != "number") return false
   x = Math.max(7, Math.ceil(x))
