@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/5581a7651185fe13190000ee
+
 function pattern(n){
   let a = Array.from({length: n} , (_, i) => (i + 1) % 10).join('')
   return Array.from({length:n}, (_, i) => ' '.repeat(n - i - 1) + a + ' '.repeat(i)).join('\n')
