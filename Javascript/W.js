@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/5d7d05d070a6f60015c436d1
+
 function getW(height) {
   if(height < 2) return []
   const top = [`*${" ".repeat(height * 2 - 3)}*${" ".repeat(height * 2 - 3)}*`]
