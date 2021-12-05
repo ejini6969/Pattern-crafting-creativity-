@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/55736129f78b30311300010f
+
 function pattern(n){
  return Array.from({length:n}, (_, i) => Array.from({length: n - i}, (_, j) => j + i + 1).join('')).join('\n')
 }
