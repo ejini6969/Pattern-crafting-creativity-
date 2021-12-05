@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/566c3f5b9de85fdd0e000026
+
 function stairs(n){
   return Array.from({length: n}, (_, i) => `${" ".repeat((n - i - 1) * 4)}${Array.from({length: i + 1}, (_, j) => (j + 1) % 10).join` `} ${Array.from({length: i + 1}, (_, j) => (i + 1 - j) % 10).join` `}`).join("\n")
 }
