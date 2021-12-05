@@ -9,6 +9,8 @@
 
 All links to corresponding tasks or katas as shown below : (NO CHEATING !!!) OwO
 
+--> JS
+
 1. [+- triangle](https://www.codewars.com/kata/592e3b99166edbd005000065)
 1. [ASCII Fun #1: X- Shape](https://www.codewars.com/kata/5906436806d25f846400009b)
 1. [ASCII Fun #2: Funny Dots](https://www.codewars.com/kata/59098c39d8d24d12b6000020)
@@ -61,3 +63,5 @@ All links to corresponding tasks or katas as shown below : (NO CHEATING !!!) OwO
 32. [■□ Pattern □■ : Heart](https://www.codewars.com/kata/56e8d06029035a0c7c001d85)
 33. [■□ Pattern □■ : Hourglass](https://www.codewars.com/kata/56e6d4c466d4428e29000f65)
 34. [■□ Pattern □■ : Wave](https://www.codewars.com/kata/56e67d6166d442121800074c)
+
+--> Python
