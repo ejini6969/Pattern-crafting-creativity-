@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/5579e6a5256bac65e4000060
+
 function pattern(n){
   if (n < 1) return ''
   else if(n == 1) return '1'
