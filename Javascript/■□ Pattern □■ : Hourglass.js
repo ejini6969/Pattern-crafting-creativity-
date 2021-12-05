@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/56e6d4c466d4428e29000f65
+
 function draw(n){
   const l = ~~(n / 2)
   const arr = Array.from({length: l}, (_, i) => `${"　".repeat(i)}${"■"}${"∷".repeat(l * 2 - 1 - i * 2)}${"■"}${"　".repeat(i)}`)
