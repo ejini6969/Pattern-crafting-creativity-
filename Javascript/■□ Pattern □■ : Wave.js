@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/56e67d6166d442121800074c
+
 function draw(waves){
   const l = Math.max(...waves)
   let arr = waves.map(x => "■".repeat(x).padStart(l, "□"))
