@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/5906436806d25f846400009b
+
 function x(n){
   return Array.from({length : n}, (_, i) => Array.from({length : n}, (_, j) => i == j || i == n - j - 1 ? '■' : '□').join``).join("\n")
 }
