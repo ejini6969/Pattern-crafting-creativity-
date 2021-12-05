@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/5672f4e3404d0609ec00000a
+
 const frame = (text, char) => {
  let l = Math.max(...text.map(x => x.length))
  return `${char.repeat(l + 4)}\n` + text.map(x => `${char} ${x}${' '.repeat(l - x.length)} ${char}`).join('\n') + '\n' + `${char.repeat(l + 4)}`
