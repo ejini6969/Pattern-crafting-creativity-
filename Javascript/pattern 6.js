@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/5574940eae1cf7d520000076
+
 function pattern(n){
  return Array.from({length: Math.ceil(n / 2)}, (_, i) => String(i * 2 + 1).repeat(i * 2 + 1)).join('\n')
 }
