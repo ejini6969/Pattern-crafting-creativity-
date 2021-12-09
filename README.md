@@ -12,7 +12,7 @@ All links to corresponding tasks or katas as shown below : (NO CHEATING !!!) OwO
 --> JS
 
 1. [+- triangle](https://www.codewars.com/kata/592e3b99166edbd005000065)
-2. [A](// https://www.codewars.com/kata/55de3f83e92c3e521a00002a)
+2. [A](https://www.codewars.com/kata/55de3f83e92c3e521a00002a)
 3. [ASCII Fun #1: X- Shape](https://www.codewars.com/kata/5906436806d25f846400009b)
 4. [ASCII Fun #2: Funny Dots](https://www.codewars.com/kata/59098c39d8d24d12b6000020)
 5. [ASCII Fun #4: Build a pyramid](https://www.codewars.com/kata/594a5d8f704e4d5561000019)
