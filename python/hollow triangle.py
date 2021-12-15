@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/57819b700a8eb2d6b00002ab
+
 def hollow_triangle(n):
     top = [f'{"_" * (n - 1)}#{"_" * (n - 1)}']
     middle = [f'{"_" * (n - 2 - i)}#{"_" * (i * 2 + 1)}#{"_" * (n - 2 - i)}' for i in range(n - 2)]
