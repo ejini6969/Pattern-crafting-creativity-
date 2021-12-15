@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/564f3d49a06556d27c000077
+
 def pattern(n): 
     return "\n".join(' ' * (i - 1) + f' {i % 10}' * (n - i + 1) for i in range(1, n + 1))
  
@@ -14,7 +16,7 @@ def test_group():
         
 ⬇️⬇️
 
-/* Example (n = 16)：
+"""Example (n = 16)：
 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
  2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
   3 3 3 3 3 3 3 3 3 3 3 3 3 3
@@ -31,4 +33,4 @@ def test_group():
              4 4 4
               5 5
                6
-*/
+"""
