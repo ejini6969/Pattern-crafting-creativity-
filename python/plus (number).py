@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/563cb92e0996a4ac0b000042
+
 def pattern(n):
     side = [" " * (n - 1) + str(i % 10) for i in range(1, n)]
     centre = [str(i % 10) for i in range(1, n)]
@@ -17,7 +19,7 @@ def fixed_tests():
 
 ⬇️⬇️
 
-/* Example: (n = 12)
+"""Example: (n = 12)
              1
              2
              3
@@ -41,4 +43,4 @@ def fixed_tests():
              3
              2
              1
-*/
+"""
