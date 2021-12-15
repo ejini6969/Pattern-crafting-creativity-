@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/5906436806d25f846400009b
+
 def x(n):
     return '\n'.join(''.join('□■'[i == j or i == n - j - 1] for j in range(n)) for i in range(n))
  
