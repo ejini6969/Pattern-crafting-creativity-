@@ -1,4 +1,4 @@
- // https://www.codewars.com/kata/55de3f83e92c3e521a00002a
+# https://www.codewars.com/kata/55de3f83e92c3e521a00002a
  
 def a(n):
     n = n - 1 if n % 2 else n
