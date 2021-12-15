@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/55ae997d1c40a199e6000018
+
 def pattern(n):
     if n <= 0:
         return ''
