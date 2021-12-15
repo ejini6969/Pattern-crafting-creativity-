@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/52755006cc238fcae70000ed
+
 def christmas_tree(height):
     return "\n".join(" " * (height - i - 1) + "*" * (i * 2 + 1) + " " * (height - i - 1) for i in range(height))
 
