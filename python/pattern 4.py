@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/55736129f78b30311300010f
+
 def pattern(n):
     return '\n'.join(''.join(str(i) for i in range(1 + j, n + 1)) for j in range(n))
         
