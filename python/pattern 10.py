@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/5581a7651185fe13190000ee
+
 def pattern(n):
     a = ''.join(str(k % 10) for k in range(1, n + 1))
     return '\n'.join(' ' * (n - i) + a + ' ' * (i - 1) for i in range(1, n + 1))
