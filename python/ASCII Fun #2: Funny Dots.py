@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/59098c39d8d24d12b6000020
+
 def dot(n,m):
     border = '+---' * n + '+'
     centre = '| o ' * n + "|\n"
