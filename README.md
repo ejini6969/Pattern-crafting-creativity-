@@ -64,5 +64,6 @@ All links to corresponding tasks or katas as shown below : (NO CHEATING !!!) OwO
 51. [■□ Pattern □■ : Heart](https://www.codewars.com/kata/56e8d06029035a0c7c001d85)
 52. [■□ Pattern □■ : Hourglass](https://www.codewars.com/kata/56e6d4c466d4428e29000f65)
 53. [■□ Pattern □■ : Wave](https://www.codewars.com/kata/56e67d6166d442121800074c)
+54. [■□ Pattern □■ : Zoom](https://www.codewars.com/kata/56e6705b715e72fef0000647)
 
 --> Python
