@@ -1,4 +1,4 @@
-// https://www.codewars.com/kata/5970fc389f4a1ce8de000061/discuss
+// https://www.codewars.com/kata/5970fc389f4a1ce8de000061
 
 function drawCube(n) {
   if(n == 0) return ""
