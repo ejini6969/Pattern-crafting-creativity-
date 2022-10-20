@@ -5,7 +5,6 @@
 * Patterns of any shape and size will emerge
 * Enhancing creativity is the main motto
 * This is a repository for leisure and fun ^_^
-* More to come as my creativity level increases ~~
 
 All links to corresponding tasks or katas as shown below : (NO CHEATING !!!) OwO
 
