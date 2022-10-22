@@ -36,6 +36,7 @@ All links to corresponding tasks or katas as shown below : (NO CHEATING !!!) OwO
 24. [frame](https://www.codewars.com/kata/5672f4e3404d0609ec00000a)
 25. [hollow triangle](https://www.codewars.com/kata/57819b700a8eb2d6b00002ab)
 26. [mysterious pattern](https://www.codewars.com/kata/580ec64394291d946b0002a1)
+27. [MyStErIoUs WaLl](https://www.codewars.com/kata/5939b753942a2700860000df)
 27. [number star ladder](https://www.codewars.com/kata/5631213916d70a0979000066)
 28. [old mobile phone display](https://www.codewars.com/kata/584e8bba044a15d3ed00016c)
 29. [pattern 1](https://www.codewars.com/kata/5572f7c346eb58ae9c000047)
